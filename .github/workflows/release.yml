@@ -18,7 +18,7 @@ jobs:
 
       - name: Build and push Docker image
         id: push
-        uses: revotale/docker-multi-arch-release-action@v1.0.2
+        uses: revotale/docker-multi-arch-release-action@v1.0.3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
